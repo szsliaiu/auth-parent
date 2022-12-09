@@ -14,6 +14,4 @@ public class SysPostQueryVo {
 	//@ApiModelProperty(value = "状态（1正常 0停用）")
 	private Boolean status;
 
-
 }
-

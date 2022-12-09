@@ -31,3 +31,13 @@ spring:
 #    db-config:
 #      logic-delete-value: 1
 #      logic-not-delete-value: 0
+# knife4j
+#knife4j:
+#  # 开启增强配置
+#  enable: true
+#basic:
+#  enable: true
+#  # Basic认证用户名
+#  username: admin
+#  # Basic认证密码
+#  password: admin

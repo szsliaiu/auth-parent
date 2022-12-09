@@ -133,12 +133,12 @@ public class SysRoleController {
     @GetMapping("findAll")
     public Result findAllRole() {
         //TODO 模拟异常效果  ArithmeticException
-        try {
-            int i = 9/0;
-        }catch (Exception e) {
-            //手动抛出异常
-            throw new MyException(20001,"执行自定义异常处理");
-        }
+//        try {
+//            int i = 9/0;
+//        }catch (Exception e) {
+//            //手动抛出异常
+//            throw new MyException(20001,"执行自定义异常处理");
+//        }
 
         //调用service
         List<SysRole> list = sysRoleService.list();
